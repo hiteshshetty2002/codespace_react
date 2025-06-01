@@ -1,12 +1,12 @@
-import './App.css'
+import React from 'react';
+import Greeting from './Module 3/Introduction to ReactJS/Ques_3';
 
 function App() {
-
   return (
-    <>
-      {/* Add your component here */}
-    </>
-  )
+    <div>
+      <Greeting />
+    </div>
+  );
 }
 
-export default App
+export default App;
